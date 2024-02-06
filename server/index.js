@@ -1,8 +1,25 @@
+const path = require('path');
+
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const dotenv = require("dotenv").config();
 const cors = require("cors");
+
+/* MONGOOSE SETUP */
+const PORT = 3001;
+mongoose
+  .connect(process.env.MONGO_URL, {
+    dbName: "Luminal_Nest",
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => {
+    app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
+  })
+  .catch((err) => console.log(`${err} did not connect`));
+
+// const __dirname = path.resolve();
 
 const authRoutes = require("./routes/auth.js")
 const listingRoutes = require("./routes/listing.js")
@@ -19,15 +36,8 @@ app.use("/properties", listingRoutes)
 app.use("/bookings", bookingRoutes)
 app.use("/users", userRoutes)
 
-/* MONGOOSE SETUP */
-const PORT = 3001;
-mongoose
-  .connect(process.env.MONGO_URL, {
-    dbName: "Luminal_Nest",
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then(() => {
-    app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
-  })
-  .catch((err) => console.log(`${err} did not connect`));
+app.use(express.static(path.join(__dirname, '/client/dist')));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'client', 'dist', 'index.html'));
+})
