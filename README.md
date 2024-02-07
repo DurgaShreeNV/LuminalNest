@@ -83,8 +83,8 @@ Upon successful completion of the listing creation process, users are redirected
   ![image](https://github.com/DurgaShreeNV/test/assets/155233552/d2ea80c3-c46d-4503-9410-21554bb9ec34)
 
   <p align="center">
-    <img src="https://github.com/DurgaShreeNV/test/assets/155233552/91d8cf66-004e-4cc8-841e-79a4c92d908b" alt="image" width="450" height="280">
-    <img src="https://github.com/DurgaShreeNV/test/assets/155233552/f07da26d-8b76-4998-987d-9d4be95e58ab" alt="image" width="450" height="280">
+    <img src="https://github.com/DurgaShreeNV/test/assets/155233552/91d8cf66-004e-4cc8-841e-79a4c92d908b" alt="image" width="480" height="280">
+    <img src="https://github.com/DurgaShreeNV/test/assets/155233552/f07da26d-8b76-4998-987d-9d4be95e58ab" alt="image" width="480" height="280">
   </p>
 In addition to all these pages, the website features additional pages including trip lists, wish lists, property lists, and reservation lists.
 
