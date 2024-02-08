@@ -2,7 +2,7 @@
 # Luminal Nest
 
 ## Description
-Luminal Nest is a dynamic rental website offering a diverse selection of homes, rooms, and lodges in top travel destinations. Leveraging cutting-edge technologies such as HTML5, React JS, Redux, and JWT for security. Powered by Node JS for server-side scripting and MongoDB for efficient data management, Luminal Nest delivers fast and reliable performance, allowing users to browse and book accommodations with ease. With SCSS for styling and Material UI for visual appeal, the website offers a sleek and intuitive interface that enhances the user experience.
+Luminal Nest is a dynamic rental web application offering a diverse selection of homes, rooms, and lodges in top travel destinations. Leveraging cutting-edge technologies such as HTML5, React JS, Redux, and JWT for security. Powered by Node JS for server-side scripting and MongoDB for efficient data management, Luminal Nest delivers fast and reliable performance, allowing users to browse and book accommodations with ease. With SCSS for styling and Material UI for visual appeal, the web application offers a sleek and intuitive interface that enhances the user experience.
 
 ## Features
 - ### Explore Diverse Stays
@@ -18,10 +18,10 @@ Luminal Nest is a dynamic rental website offering a diverse selection of homes, 
 Luminal Nest has been successfully developed and tested locally. It has not been deployed to any production environment yet.
 
 ## Screenshots
-Screenshots of the Luminal Nest website will be added here to showcase its features and user interface.
+Screenshots of the Luminal Nest web application will be added here to showcase its features and user interface.
 
 - ## Home page:
-  The website features a logo positioned at the top left corner across all pages. Clicking on the logo redirects users to the home page, ensuring consistent and easy navigation throughout the website. 
+  The web application features a logo positioned at the top left corner across all pages. Clicking on the logo redirects users to the home page, ensuring consistent and easy navigation throughout the web application. 
 The Navbar provides intuitive navigation along with search functionality and a dynamic dropdown menu. Initially presenting login and sign-up options, upon user authentication, it showcases the user's profile picture and grants access to trip lists, wish lists, property lists, reservation lists, and host functionalities for a seamless browsing experience. Additionally, a "Become a Host" link enables users to post their places as listings, with access to the reservation list to monitor bookings.
 
 <p align="center">
@@ -86,7 +86,7 @@ Upon successful completion of the listing creation process, users are redirected
     <img src="pics/pic16.png" alt="image" width="480" height="280">
     <img src="pics/pic17.png" alt="image" width="480" height="280">
   </p>
-In addition to all these pages, the website features additional pages including trip lists, wish lists, property lists, and reservation lists.
+In addition to all these pages, the web application features additional pages including trip lists, wish lists, property lists, and reservation lists.
 
 - ## Tech stack:
   Built a dynamic rental platform using HTML5, React JS, Redux, and JWT for security, coupled with Node JS, MongoDB, SCSS, and Material UI for efficiency and visual appeal.
