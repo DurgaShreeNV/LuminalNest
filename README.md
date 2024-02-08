@@ -88,5 +88,5 @@ Upon successful completion of the listing creation process, users are redirected
   </p>
 In addition to all these pages, the website features additional pages including trip lists, wish lists, property lists, and reservation lists.
 
-- ## Summary:
+- ## Tech stack:
   Built a dynamic rental platform using HTML5, React JS, Redux, and JWT for security, coupled with Node JS, MongoDB, SCSS, and Material UI for efficiency and visual appeal.
